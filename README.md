@@ -13,4 +13,10 @@ So after that we will remove the Id column from the data (it still exists in the
 So after that we will make some violinplot using seabron and the y axis of the plot is Species and x is the columns from the data and our data is the data variable after removing the Id.
 Then we will make our training data X and y, in X we have removed the Id and Species from the data and in y we have the Species column from the data and after that we will get the shape of the data for X it is (150, 4) which means it has 4 columns and 150 rows while it is (150,) for y so it means y has 150 rows with 1 column
 After that we will experiment it KNearestNeighbors algorithm with different n values and plot the accuracy_score of the model (accuracy_score for sklearn / scikit-learn and accuracy for tensorflow) with a ylabel of Accuracy Score, xlabel of Value if k FOR KNN (K-Nearest-Neighbors) and title of Accuracy Scores for values of k of k-Nearest-Neighbors
-After that we will predict it with the LogisticRegression Algorithm 
+After that we will predict it with the LogisticRegression Algorithm and fit the model with our training data (X and y) and then make a variable y_pred which and predict X inside the y_pred variable and then print the accuracy_score of y and y_pred
+Now we will declare the variables of X_train, X_test, y_train, y_test which will contain the train and test split of X and y
+So now we will again experiment KNearestNeighbors with different n values but now we will not predict the X now we will predict the X_test and merge the accuracy score of y_test and y_pred in a list called scores and plot it
+Now we are gonna again predict it with the Logistic Regression but now it is different we will fit X_train and y_train and predict X_test in a variable called y_pred  and then we will print the accuracy_score of y_test and y_pred
+Now it is our last step we again use the KNearestNeighbor algorithm here with a n_neighbor value of 12 and fit the X and y with the KNearestNeighbor Algorithm and predict it with 6, 3, 4, 2 and we are finished!
+
+If you find any problem you can gmail me at asarkar310@gmail.com. Bye! :D
